@@ -1,0 +1,88 @@
+* {
+	font-family: Arial;
+	font-size: 16px;
+}
+h1, h1 * {
+	font-size: 2rem;
+}
+body {
+	margin: 0;
+}
+.bg {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/12/Metal_detector_on_the_beach.jpg);
+	background-size: cover;
+	height: 100%;
+	opacity: 0.3;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+.hello-wrapper {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+}
+.hello {
+	background-color: rgba(255,255,255,0.75);
+	border: 5px solid #2b5873;
+	border-radius: 50px;
+	color: #2b5873;
+	padding: 20px;
+	width: 600px;
+}
+.hello a.play {
+    align-items: center;
+    border: 1px solid rgb(43 88 115 / 0.7);
+    border-radius: 5px;
+    color: #2b5873;
+    display: flex;
+    float: right;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    width: 150px;
+}
+.hello a.play:hover,
+.hello a.play:active,
+.hello a.play:focus {
+    background-color: rgb(43 88 115 / 0.2);
+}
+.hello .credit {
+	clear: both;
+	display: block;
+	padding-top: 25px;
+	text-align: center;
+}
+.hello .credit a {
+	border-bottom: 1px dotted #2b5873;
+	color: #2b5873;
+	text-decoration: none;
+}
+.hello .credit a:hover,
+.hello .credit a:active,
+.hello .credit a:focus {
+    background-color: rgb(43 88 115 / 0.2);
+	border-bottom: 1px solid #2b5873;
+}
+
+@media (min-width: 576px) {
+    .hello h1,
+    .hello h1 * { font-size: 3rem; }
+    .hello { padding: 30px; }
+}
+@media (min-width: 768px) {
+    .hello h1,
+    .hello h1 * { font-size: 4rem; }
+    .hello { padding: 50px;}
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {    
+}
+@media (min-width: 1400px) {    
+}
